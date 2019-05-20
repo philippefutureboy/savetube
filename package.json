@@ -1,0 +1,54 @@
+{
+  "name": "savetube",
+  "version": "0.0.0",
+  "description": "For all those that want to ensure the perennity of their youtube videos",
+  "main": "src/__init__.py",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philippefutureboy/savetube.git"
+  },
+  "keywords": [
+    "youtube",
+    "save",
+    "p2p",
+    "torrent",
+    "download",
+    "youtube-dl"
+  ],
+  "author": "philippefutureboy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philippefutureboy/savetube/issues"
+  },
+  "homepage": "https://github.com/philippefutureboy/savetube#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "jest": "^24.8.0",
+    "jest-pytest": "^0.7.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "py"
+    ],
+    "runner": "jest-pytest",
+    "testPathIgnorePatterns": [
+      "snap_.*\\.py"
+    ],
+    "testMatch": [
+      "**/?(*_)test.py"
+    ]
+  }
+}

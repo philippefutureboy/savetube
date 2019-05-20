@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[scripts]
+test = "npm run test"
+watch = "npm run watch"
+
+[dev-packages]
+pytest-jest = "*"
+pytest = "*"
+
+[packages]
+youtube-dl = "*"
+
+[requires]
+python_version = "3.7"
