@@ -1,0 +1,17 @@
+{
+  "parsers": {},
+  "tags": {
+    "songname": "{{info.title}}",
+    "album": "",
+    "artist": "",
+    "release_year": "{{info.upload_date}}",
+    "album_artist": "",
+    "composer": "",
+    "comment": "{{info.description}}",
+    "tracklist": ""
+  },
+  "save_tracklist_in_lyrics": true,
+  "append_all_data_in_lyrics": false,
+  "save_all_data_on_file": true,
+  "config": {}
+}

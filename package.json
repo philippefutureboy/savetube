@@ -28,7 +28,9 @@
     "url": "https://github.com/philippefutureboy/savetube/issues"
   },
   "homepage": "https://github.com/philippefutureboy/savetube#readme",
-  "dependencies": {},
+  "dependencies": {
+    "handlebars": "^4.1.2"
+  },
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",
     "jest": "^24.8.0",
